@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+# 🚀 Personal Gym Trainer AI  
+Your smart workout companion that analyzes your posture using **MediaPipe** and gives real-time feedback — just like a personal trainer.
 
-## Project info
+<p align="center">
+  <img src="https://media.tenor.com/YZPnGuPeZv8AAAAC/gym-workout.gif" width="400"/>
+</p>
 
-**URL**: https://lovable.dev/projects/eef26c59-40ff-475d-89de-5a206fa5cd5b
+---
 
-## How can I edit this code?
+## ✨ Features  
+- 🎯 **Real-time Pose Detection**  
+- 🧍‍♂️ **Automatic Repetition Counter**  
+- 🗣️ **Voice Feedback for Form Correction**  
+- 🎥 **Live Webcam Feed with Annotations**  
+- 🏋️ Supports:
+  - Bicep Curls  
+  - Squats  
+  - Push-ups  
+  - More coming soon  
+- ⚙️ **Easily Customizable Exercise Logic**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eef26c59-40ff-475d-89de-5a206fa5cd5b) and start prompting.
+## 🎬 Demo Preview  
+<p align="center">
+  <img src="https://media.tenor.com/hQzZpO6m9T8AAAAC/workout-fitness.gif" width="350"/>
+  <img src="https://media.tenor.com/dD2VtAwx0EIAAAAC/focus-fitness.gif" width="350"/>
+</p>
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📌 How It Works
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🔹 Pose Detection  
+MediaPipe extracts body landmarks from each frame.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔹 Angle Calculation  
+Using 3 key points → angle formula → detect movement phase.
 
-Follow these steps:
+### 🔹 Rep Logic  
+If angle drops below a threshold → **down phase**  
+If angle rises above threshold → **rep counted**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔹 Feedback System  
+- Voice instructions  
+- On-screen posture guidance  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚧 Future Enhancements  
+- Workout history & analytics  
+- Calories burned estimation  
+- Form score system  
+- Yoga pose detection  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## ⭐ Support the Project  
+If you find this helpful, give the repository a **star** ⭐ — it helps the project grow!
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/eef26c59-40ff-475d-89de-5a206fa5cd5b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
