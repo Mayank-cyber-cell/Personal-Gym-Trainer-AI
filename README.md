@@ -4,6 +4,7 @@ Your smart workout companion that analyzes your posture using **MediaPipe** and 
 <p align="center">
   <img src="https://media.tenor.com/YZPnGuPeZv8AAAAC/gym-workout.gif" width="400"/>
 </p>
+
 ---
 
 ## ✨ Features  
