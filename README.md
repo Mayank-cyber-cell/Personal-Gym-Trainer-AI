@@ -18,15 +18,6 @@ Your smart workout companion that analyzes your posture using **MediaPipe** and 
 
 ---
 
-
-## 🎬 Demo Preview  
-<p align="center">
-  <img src="https://media.tenor.com/hQzZpO6m9T8AAAAC/workout-fitness.gif" width="350"/>
-  <img src="https://media.tenor.com/dD2VtAwx0EIAAAAC/focus-fitness.gif" width="350"/>
-</p>
-
----
-
 ## 📌 How It Works
 
 ### 🔹 Pose Detection  
