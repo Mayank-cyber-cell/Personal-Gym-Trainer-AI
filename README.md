@@ -1,5 +1,6 @@
 # 🚀 Personal Gym Trainer AI  
 Your smart workout companion that analyzes your posture using **MediaPipe** and gives real-time feedback — just like a personal trainer
+
 ---
 
 ## ✨ Features  
