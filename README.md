@@ -10,7 +10,7 @@ Your smart workout companion that analyzes your posture using **MediaPipe** and 
 - 🗣️ **Voice Feedback for Form Correction**  
 - 🎥 **Live Webcam Feed with Annotations**  
 - 🏋️ Supports:
-  - Bicep Curls   
+  - Bicep Curls    
   - Squats  
   - Push-ups  
   - More coming soon  
