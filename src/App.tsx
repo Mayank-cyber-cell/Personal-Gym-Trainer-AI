@@ -14,7 +14,6 @@ import Motivation from "./pages/Motivation";
 import PostureAnalysis from "./pages/PostureAnalysis";
 import NotFound from "./pages/NotFound";
 
-
 const queryClient = new QueryClient();
 
 const App = () => (
