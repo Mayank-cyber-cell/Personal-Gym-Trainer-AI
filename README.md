@@ -3,7 +3,7 @@ Your smart workout companion that analyzes your posture using **MediaPipe** and 
  
   
 ---  
-
+ 
 ## ✨ Features  
 - 🎯 **Real-time Pose Detection**  
 - 🧍‍♂️ **Automatic Repetition Counter**  
